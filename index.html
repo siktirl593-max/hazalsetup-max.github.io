@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dijital Mağaza</title>
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:#0b1020;
+      color:#fff;
+    }
+    header{
+      padding:28px 18px;
+      text-align:center;
+      background:linear-gradient(135deg,#111827,#1f2937);
+      border-bottom:1px solid #2b3548;
+    }
+    header h1{margin:0 0 8px;font-size:30px}
+    header p{margin:0;color:#b8c0d0}
+    .container{
+      max-width:1000px;
+      margin:auto;
+      padding:28px 16px 50px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:18px;
+    }
+    .card{
+      background:#151c2f;
+      border:1px solid #26314a;
+      border-radius:18px;
+      padding:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,.22);
+    }
+    .tag{
+      display:inline-block;
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#26314a;
+      color:#c9d3e8;
+      margin-bottom:12px;
+    }
+    .card h2{margin:0 0 10px;font-size:22px}
+    .card p{color:#b8c0d0;line-height:1.5;min-height:54px}
+    .price{font-size:26px;font-weight:bold;margin:16px 0}
+    .buy{
+      display:block;
+      text-align:center;
+      text-decoration:none;
+      color:white;
+      background:#2563eb;
+      padding:13px 16px;
+      border-radius:12px;
+      font-weight:bold;
+    }
+    .buy:hover{background:#1d4ed8}
+    .notice{
+      margin-top:28px;
+      padding:16px;
+      border-radius:14px;
+      background:#111827;
+      border:1px solid #26314a;
+      color:#aeb8cb;
+      font-size:14px;
+      line-height:1.5;
+    }
+    footer{
+      text-align:center;
+      color:#7f8aa1;
+      padding:20px;
+      font-size:13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dijital Mağaza</h1>
+    <p>Hızlı sipariş • Kolay iletişim • Dijital ürünler</p>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+
+      <div class="card">
+        <span class="tag">PUBG</span>
+        <h2>PUBG Hesabı</h2>
+        <p>Ürün açıklamasını buraya yaz. Seviye, kostüm ve diğer bilgileri ekleyebilirsin.</p>
+        <div class="price">500 TL</div>
+        <a class="buy" href="https://t.me/KULLANICI_ADIN" target="_blank">Satın Al</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">Dijital</span>
+        <h2>Netflix</h2>
+        <p>Süre, paket ve teslimat bilgilerini buraya yaz.</p>
+        <div class="price">150 TL</div>
+        <a class="buy" href="https://t.me/KULLANICI_ADIN" target="_blank">Satın Al</a>
+      </div>
+
+      <div class="card">
+        <span class="tag">PUBG UC</span>
+        <h2>660 UC</h2>
+        <p>UC miktarı ve teslimat yöntemini buraya yaz.</p>
+        <div class="price">250 TL</div>
+        <a class="buy" href="https://t.me/KULLANICI_ADIN" target="_blank">Satın Al</a>
+      </div>
+
+
+      <div class="card">
+        <span class="tag">Telegram</span>
+        <h2>Telegram VIP Gold</h2>
+        <p>Paket süresi ve teslimat bilgilerini buraya yaz.</p>
+        <div class="price">2.000 TL</div>
+        <a class="buy" href="https://t.me/KULLANICI_ADIN" target="_blank">Satın Al</a>
+      </div>
+
+
+    </div>
+
+    <div class="notice">
+      Bu şablonda Telegram bağlantısını değiştirmek için dosyada
+      <b>KULLANICI_ADIN</b> yazan yerleri kendi Telegram kullanıcı adınla değiştir.
+      Yalnızca satışı ve devri ilgili hizmetlerin kurallarına uygun ürünleri listele.
+    </div>
+  </main>
+
+  <footer>© 2026 Dijital Mağaza</footer>
+</body>
+</html>
